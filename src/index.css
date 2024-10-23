@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.microphone-button-on {
+  @apply inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-green-900 shadow-sm ring-1 ring-inset ring-green-300 hover:bg-green-50 mt-4;
+}
+
+.microphone-button-off {
+  @apply inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-purple-900 shadow-sm ring-1 ring-inset ring-purple-300 hover:bg-purple-50 mt-4;
+}
+
+.microphone-badge-off {
+  @apply inline-flex items-center rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10;
+}
+
+.microphone-badge-on {
+  @apply inline-flex items-center rounded-md bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/20;
+}
