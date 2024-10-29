@@ -2,9 +2,9 @@
 
 ## Background
 
-The New Lantern PACS consists of several components working together to provide a seamless workflow for Radiologists reading and dictating cases. For this challenge, there is a simplified frontend with three distinct pages: a dashboard, a worklist, and a reporter.
+The New Lantern PACS consists of several components working together to provide a seamless workflow for Radiologists reading and dictating cases. For this challenge, there is a simplified frontend with three distinct pages: a homepage, a worklist, and a reporter.
 
-- The **Dashboard** is the landing page for the New Lantern PACS.
+- The **Home** page is the landing page for the New Lantern PACS.
 - The **Worklist** is where Radiologists can view and manage their cases.
 - The **Reporter** is where Radiologists can dictate their cases.
 
@@ -21,7 +21,7 @@ The issue is Radiologists aren't always looking at the reporter page, yet they m
 
 ## Task
 
-Open the reporter page in a new tab/window and the worklist/dashboard page in another tab/window.
+Open the reporter page in a new tab/window and the worklist/home page in another tab/window.
 
 Figure out a way to communicate the status of the microphone button across separately opened tabs/windows.
 
