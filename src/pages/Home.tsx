@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mt-5 flex lg:ml-4 lg:mt-0">
-        <span className="inline-flex items-center rounded-md bg-purple-50 px-2 py-1 text-xs font-medium text-purple-700 ring-1 ring-inset ring-purple-700/10">
+        <span className="microphone-badge-off">
           Microphone Off
         </span>
       </div>
